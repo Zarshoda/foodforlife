@@ -1,0 +1,523 @@
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+button{
+    border: 0;
+}
+
+a:hover{
+    color: rgb(27, 27, 88) !important;
+}
+
+.header{
+    width: 100%;
+    height: 60px;
+    background-color: orange;
+    font-weight: bold;
+}
+
+.header button{
+    background-color: orange;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.align{
+    color: white;
+}
+
+.align:hover{
+    color: rgb(27, 27, 88);
+}
+
+.wrap0{
+    position: relative;
+}
+
+.wrap0::before{
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 50%;
+    background-image: url('./images/02.png');
+    background-position: center right -200px;
+    background-repeat: no-repeat;
+    background-size: 500px;
+}
+
+.page1{
+    position: relative;
+}
+
+.page1 span{
+    font-size: larger;
+}
+
+.page1 .smaller{
+    font-size: 13px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 500;
+    color: grey;
+}
+
+.page1 .bigger{
+    font-size: 42px;
+    margin-bottom: 0;
+    color: orange;
+}
+
+.page1 .buttons{
+    justify-content: center;
+}
+
+.page1 button{
+    background-color: white;
+    font-size: 10px;
+}
+
+button:hover{
+    color: rgb(27, 27, 88);
+}
+
+.logo1{
+    width: 170px;
+    height: 150px;
+    margin-left: 50px;
+}
+
+.grey{
+    color: grey;
+}
+
+.page2 button{
+    margin: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: orange;
+    width: 170px;
+    padding: 6px;
+    border-radius: 50px;
+}
+
+.hr{
+    width: 5px;
+    background-color: white;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.box{
+    background-color: orange;
+    color: white;
+    padding: 30px 80px;
+    border-radius: 50px;
+}
+
+.page2 span{
+    font-weight: bold;
+}
+
+.page2 p{
+    font-size: 22px;
+}
+
+.wrap{
+    position: relative;
+}
+
+.wrap::before{
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 50%;
+    background-image: url('./images/02.png');
+    background-size: 2200px;
+    background-position: top right -800px;
+    background-repeat: no-repeat;
+}
+
+.main{
+    position: relative;
+    color: rgb(82, 82, 82);
+}
+
+.main img{
+    width: 100% !important;
+    border-radius: 30px;
+}
+
+.main .col-6{
+    margin-bottom: 30px;
+}
+
+.main p{
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.right{
+    text-align: right;
+}
+
+.wrap1{
+    color: rgb(82, 82, 82);
+    position: relative;
+}
+
+.wrap1::before{
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 50%;
+    background-image: url('./images/02.png');
+    background-size: 2200px;
+    background-position: top left -800px;
+    background-repeat: no-repeat;
+}
+
+.block{
+    position: relative;
+}
+
+.wrap1 h1{
+    font-weight: bold;
+    text-align: center;
+}
+
+.wrap1 video{
+    width: 80%;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 30px;
+}
+
+.sliderjs{
+    width: 80%;
+    margin: auto;
+}
+
+.sliderjs img{
+    width: 90%;
+    margin: 15px auto;
+    border-radius: 23%;
+}
+
+.slide{
+    transform: scale(0.8);
+    transition: transform 300ms;
+    opacity: 0.7;
+}
+
+.activeSlide{
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.arrow{
+    position: absolute;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.arrow svg{
+    transition: color 300ms;
+    font-size: 50px;
+}
+
+.arrow svg:hover{
+    color: rgb(27, 27, 88);
+}
+
+.next{
+    right: 0;
+    top: 42%;
+}
+
+.prev{
+    left: 0;
+    top: 42%; 
+}
+
+.block button{
+    margin: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: orange;
+    width: 170px;
+    padding: 6px;
+    border-radius: 50px;
+}
+
+.net{
+    margin-bottom: 0 !important;
+}
+
+.net a{
+    color: orange;
+    font-size: 70px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.lang button{
+    width: 35px !important;
+    height: 35px !important;
+    padding: 0;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 5px;
+}
+
+.lang a{
+    font-size: 20px !important;
+}
+
+@media (max-width: 1300px){
+    .page2 p{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .wrap::before{
+        background-size: 1800px;
+        background-position: top right -700px;
+    }
+    .wrap1::before{
+        background-size: 1800px;
+        background-position: top left -700px;
+    }
+    .main img{
+        width: 400px;
+    }
+    .main p{
+        font-size: 17px;
+    }
+    .arrow svg{
+        font-size: 40px !important;
+    }
+}
+
+@media (max-width: 1180px){
+    .page2 p{
+        font-size: 18px;
+    }
+    .page2 h3{
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 1110px){
+    .page2 p{
+        font-size: 16px;
+    }
+    .page2 h3{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1050px){
+    .page2 p{
+        font-size: 14px;
+    }
+    .hr{
+        margin-left: 10px !important;
+        margin-right: 10px !important;
+    }
+}
+
+@media (max-width: 1000px){
+    .wrap::before{
+        background-size: 1600px;
+        background-position: top right -650px;
+    }
+    .wrap1::before{
+        background-size: 1600px;
+        background-position: top left -650px;
+    }
+    .main p{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 900px) {
+    .page2 p{
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+    .box{
+        padding: 20px 30px;
+        border-radius: 30px;
+    }
+    .page2 h3{
+        font-size: 15px;
+        margin-bottom: 0;
+    }
+    .page2 .d-flex{
+        margin-bottom: 0;
+        padding: 0;
+    }
+    .logo1{
+        margin-left: 10px;
+    }
+    .grey{
+        font-size: 25px;
+    }
+    .main p{
+        font-size: 14px;
+    }
+    .arrow svg{
+        font-size: 30px !important;
+    }
+    .text{
+        font-size: 12px;
+    }
+    .block h3{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 850px){
+    .main p{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 800px){
+    .wrap::before{
+        background-size: 1500px;
+    }
+    .wrap1::before{
+        background-size: 1500px;
+    }
+    .main p{
+        font-size: 11px;
+    }
+    .arrow svg{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 750px) {
+    .grey{
+        font-size: 16px;
+    }
+    .logo1{
+        width: 100px;
+        height: 90px;
+        margin: auto 0;
+        margin-left: 10px;
+    }
+    .bigger{
+        font-size: 25px !important;
+    }
+    .smaller{
+        font-size: 8px !important;
+    }
+    .page1 .text-center{
+        margin: auto 0;
+        padding: 0;
+    }
+    .wrap0::before{
+        background-size: 300px;
+        background-position: center right -120px;
+    }
+    .page1 button{
+        font-size: 7px;
+    }
+    .page2 button{
+        font-size: 25px !important;
+        width: 105px;
+        margin: 10px !important;
+    }
+    .wrap::before{
+        background-size: 1200px;
+        background-position: top right -500px;
+    }
+    .wrap1::before{
+        background-size: 1200px;
+        background-position: top left -500px;
+    }
+    .block button{
+        font-size: 25px !important;
+        width: 105px;
+        margin: 10px !important;
+    }
+}
+
+@media (max-width: 700px){
+    .page2 p{
+        font-size: 11px;
+    }
+    .box{
+        margin-left: 20px !important;
+        margin-right: 20px !important;
+    }
+    .arrow svg{
+        font-size: 20px !important;
+    }
+    .text{
+        font-size: 10px;
+    }
+    .block h3{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 650px){
+    .main p{
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 600px){
+    .page2 p{
+        font-size: 9px;
+    }
+    .hr{
+        width: 3px;
+        margin-left: 5px !important;
+        margin-right: 5px !important;
+    }
+    .box{
+        padding: 20px 25px;
+    }
+    .page2 h3{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 550px){
+    .wrap::before{
+        background-size: 1100px;
+    }
+    .wrap1::before{
+        background-size: 1100px;
+    }
+    .main p{
+        font-size: 9px;
+    }
+    .main{
+        margin: 10px;
+    }
+}

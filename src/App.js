@@ -1,0 +1,21 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css';
+import Header from "./Header";
+import Page1 from './Page1';
+import Page2 from './Page2';
+import Page3 from './Page3';
+import Page4 from './Page4';
+function App() {
+  return (
+    <div className="App">
+      <Header/>
+      <Page1/>
+      <Page2/>
+      <Page3/>
+      <Page4/>
+      <Page1/>
+    </div>
+  );
+}
+
+export default App;
