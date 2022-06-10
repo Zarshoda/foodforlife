@@ -202,8 +202,12 @@ button:hover{
     text-align: center;
 }
 
-.wrap1 video{
-    width: 80%;
+.wrap1 .video iframe{
+  border-radius: 30px;
+}
+.wrap1 .video{
+    padding: 20px;
+    max-width: 1000px;
     display: block;
     margin: auto;
     margin-bottom: 20px;
